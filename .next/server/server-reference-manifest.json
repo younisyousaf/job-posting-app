@@ -6,6 +6,10 @@
           "moduleId": "[project]/.next-internal/server/app/_not-found/page/actions.js { ACTIONS_MODULE0 => \"[project]/lib/auth.ts [app-rsc] (ecmascript)\" } [app-rsc] (server actions loader, ecmascript)",
           "async": false
         },
+        "app/jobs/page": {
+          "moduleId": "[project]/.next-internal/server/app/jobs/page/actions.js { ACTIONS_MODULE0 => \"[project]/lib/auth.ts [app-rsc] (ecmascript)\" } [app-rsc] (server actions loader, ecmascript)",
+          "async": false
+        },
         "app/jobs/post/page": {
           "moduleId": "[project]/.next-internal/server/app/jobs/post/page/actions.js { ACTIONS_MODULE0 => \"[project]/lib/auth.ts [app-rsc] (ecmascript)\" } [app-rsc] (server actions loader, ecmascript)",
           "async": false
@@ -13,6 +17,7 @@
       },
       "layer": {
         "app/_not-found/page": "action-browser",
+        "app/jobs/page": "action-browser",
         "app/jobs/post/page": "action-browser"
       }
     }
