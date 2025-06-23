@@ -1,0 +1,16 @@
+{
+  "node": {
+    "00dc8eddbb768678a296c9b717dccace7f662416c4": {
+      "workers": {
+        "app/jobs/post/page": {
+          "moduleId": "[project]/.next-internal/server/app/jobs/post/page/actions.js { ACTIONS_MODULE0 => \"[project]/lib/auth.ts [app-rsc] (ecmascript)\" } [app-rsc] (server actions loader, ecmascript)",
+          "async": false
+        }
+      },
+      "layer": {
+        "app/jobs/post/page": "action-browser"
+      }
+    }
+  },
+  "edge": {}
+}
