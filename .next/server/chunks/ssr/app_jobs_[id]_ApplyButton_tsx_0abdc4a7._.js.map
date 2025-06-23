@@ -1,0 +1,6 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 7, "column": 0}, "map": {"version":3,"sources":["file:///D:/prisma-starter/job-posting-app/app/jobs/%5Bid%5D/ApplyButton.tsx"],"sourcesContent":["\"use client\";\r\nimport { useSession } from \"next-auth/react\";\r\nimport React from \"react\";\r\n\r\nconst ApplyButton = ({ jobId }: { jobId: string }) => {\r\n\tconst { data: session, status } = useSession();\r\n\tconst handleApply = () => {};\r\n\r\n\tif (status === \"loading\") {\r\n\t\treturn <button disabled={true}>Loading...</button>;\r\n\t}\r\n\treturn (\r\n\t\t<>\r\n\t\t\t<button onClick={handleApply}>Apply for this job</button>\r\n\t\t</>\r\n\t);\r\n};\r\n\r\nexport default ApplyButton;\r\n"],"names":[],"mappings":";;;;AACA;AADA;;;AAIA,MAAM,cAAc,CAAC,EAAE,KAAK,EAAqB;IAChD,MAAM,EAAE,MAAM,OAAO,EAAE,MAAM,EAAE,GAAG,CAAA,GAAA,qIAAA,CAAA,aAAU,AAAD;IAC3C,MAAM,cAAc,KAAO;IAE3B,IAAI,WAAW,WAAW;QACzB,qBAAO,8OAAC;YAAO,UAAU;sBAAM;;;;;;IAChC;IACA,qBACC;kBACC,cAAA,8OAAC;YAAO,SAAS;sBAAa;;;;;;;AAGjC;uCAEe","debugId":null}}]
+}
